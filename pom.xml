@@ -41,7 +41,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<finalName>demo</finalName>
+					<!-- JAR 파일 생성 위치 설정 -->
 					<outputDirectory>/sw/app</outputDirectory>
 				</configuration>
 			</plugin>
