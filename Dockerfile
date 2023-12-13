@@ -1,7 +1,10 @@
 FROM openjdk:17
 
-WORKDIR /sw/app
+# 작업 디렉토리 설정
+WORKDIR /home/ec2-user/.jenkins/workspace/wts_dev/target
 
-COPY /home/ec2-user/.jenkins/workspace/wts_dev/target/demo-0.0.1-SNAPSHOT.jar /sw/app/demo-0.0.1-SNAPSHOT.jar
-
+# Java로 JAR 파일을 실행합니다.
 CMD ["java", "-jar", "demo-0.0.1-SNAPSHOT.jar"]
+
+
+
