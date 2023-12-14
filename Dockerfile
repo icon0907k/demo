@@ -9,3 +9,7 @@ COPY target/demo-0.0.1-SNAPSHOT.jar /sw/app/demo-0.0.1-SNAPSHOT.jar
 
 # Java로 JAR 파일을 실행합니다.
 CMD ["java", "-jar", "demo-0.0.1-SNAPSHOT.jar"]
+
+
+
+
